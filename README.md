@@ -1,7 +1,5 @@
 
 
-**
-
 ## An Empirical Evaluation of GitHub Copilot's Code Generation
 *Requirements:*
 - [python-decouple package](https://pypi.org/project/python-decouple/) (Can be installed with Pyhton Package Installer, pip using command: *pip install python-decouple*)
