@@ -1,5 +1,5 @@
 import os
-import openai_efficency
+import openai_efficiency
 from shared_funcs import get_json_object
 from sonarqube import run_sonarqube_eval
 
@@ -125,8 +125,8 @@ def get_time_and_space_complexity(file_contents):
         sample1 = []
         sample2 = []
 
-        response1 = openai_efficency.return_response(file_contents[i][0])
-        response2 = openai_efficency.return_response(file_contents[i][1])
+        response1 = openai_efficiency.return_response(file_contents[i][0])
+        response2 = openai_efficiency.return_response(file_contents[i][1])
 
         # Find first "O(" in response1
         time_complexity_start_1 = response1.find("O(")
